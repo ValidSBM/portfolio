@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+  
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/dp.png" alt="Logo">
+        <span>Akerele Samuel. D</span>
+      </a>
+      <ul>
+        <li><a href="index.html">Home 🏠</a></li>
+        <li><a href="about.html">About 👤</a></li>
+        <li><a href="gallery.html">Gallery 🖼</a></li>
+        <li><a href="hobbies.html">Hobbies ✨</a></li>
+        <li><a href="values.html">Values 🌱</a></li>
+        <li><a href="moments.html">Moments 🎥</a></li>
+        <li><a href="contact.html">Contact ☎️</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="content">
+<h2>Moments</h2>
+<p>This is where I reflect on life’s quiet lessons and experiences that shape me.</p>
+<p>Moments of growth, love, and discovery are captured here. A space of calm, introspection, and gratitude.</p>
+</section>
+
+<section class="moments">
+  <!-- Moment Cards -->
+  <a href="#m1" class="moment-card">
+    <img src="images/beach.jpg" alt="Moment 1">
+    <h3>Sunset Vibes</h3>
+    <p>A peaceful evening watching the sunset by the lake.</p>
+  </a>
+
+  <a href="#m2" class="moment-card">
+    <img src="images/city.jpg" alt="Moment 2">
+    <h3>City Adventures</h3>
+    <p>Exploring downtown streets and hidden cafes.</p>
+  </a>
+
+  <a href="#m3" class="moment-card">
+    <img src="images/creative.jpg" alt="Moment 3">
+    <h3>Creative Mood</h3>
+    <p>Designing new ideas and learning CSS tricks.</p>
+  </a>
+
+  <a href="#m4" class="moment-card">
+    <img src="images/coz.jpg" alt="Moment 4">
+    <h3>Cozy Moments</h3>
+    <p>Reading a good book with a cup of tea on a rainy day.</p>
+  </a>
+</section>
+
+<!-- Lightbox Overlays with Navigation -->
+<div id="m1" class="lightbox">
+  <a href="#m4" class="prev">&#10094;</a>
+  <a href="#m2" class="next">&#10095;</a>
+  <a href="#" class="close">&times;</a>
+  <img src="images/beach.jpg".jpg" alt="Moment 1">
+</div>
+
+<div id="m2" class="lightbox">
+  <a href="#m1" class="prev">&#10094;</a>
+  <a href="#m3" class="next">&#10095;</a>
+  <a href="#" class="close">&times;</a>
+  <img src="images/city.jpg" alt="Moment 2">
+</div>
+
+<div id="m3" class="lightbox">
+  <a href="#m2" class="prev">&#10094;</a>
+  <a href="#m4" class="next">&#10095;</a>
+  <a href="#" class="close">&times;</a>
+  <img src="images/creative.jpg" alt="Moment 3">
+</div>
+
+<div id="m4" class="lightbox">
+  <a href="#m3" class="prev">&#10094;</a>
+  <a href="#m1" class="next">&#10095;</a>
+  <a href="#" class="close">&times;</a>
+  <img src="images/coz.jpg" alt="Moment 4">
+</div>
+</section>
+</body>
+</html>
