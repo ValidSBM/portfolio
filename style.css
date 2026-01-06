@@ -1651,4 +1651,75 @@ p {
 
 .lightbox .prev { left: 40px; top: 50%; transform: translateY(-50%); }
 .lightbox .next { right: 40px; top: 50%; transform: translateY(-50%); }
+
 .lightbox .close { top: 30px; right: 30px; font-size: 34px; width: 52px; height: 52px; line-height: 52px; }
+
+/* =================== MOBILE RESPONSIVENESS =================== */
+@media (max-width: 768px) {
+
+  .gallery h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .gallery-container {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .piece {
+    width: 140px;
+    height: 100px;
+  }
+
+  .piece img {
+    object-fit: cover;
+  }
+
+  /* Lightbox adjustments */
+  .lightbox img {
+    max-width: 95%;
+    max-height: 90%;
+  }
+
+  /* Nav buttons smaller */
+  .lightbox .nav {
+    font-size: 36px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .lightbox .close {
+    font-size: 28px;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .gallery h2 {
+    font-size: 24px;
+  }
+
+  .piece {
+    width: 120px;
+    height: 85px;
+  }
+
+  .lightbox .nav {
+    font-size: 32px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  .lightbox .close {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
